@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice to Text and Text to Voice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Asian College Speech Recognition Software</h1>
+
+      <!-- Voice to Text -->
+      <div class="section">
+        <h2>Voice to Text</h2>
+        <button id="start-recognition">Start Voice Recognition</button>
+        <p id="transcription">Your transcription will appear here...</p>
+      </div>
+
+      <!-- Text to Voice -->
+      <div class="section">
+        <h2>Text to Voice</h2>
+        <textarea
+          id="text-to-speak"
+          rows="4"
+          placeholder="Type text here..."
+        ></textarea>
+        <button id="speak-text">Speak Text</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
